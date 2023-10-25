@@ -105,25 +105,25 @@ Usage: #definition
   * code[+] = $LNC#42077-8 "Patient Phone number"
   * code[+] = $SCT#184103008 "Fathers/Guardian phone number (observable entity)"
 
-* insert Question(administrativeArea, County,choice,false,false)
+* insert Question(County, County,choice,false,false)
 * item[=]
   * code[+] = IMMZ.C#DE191
   * code[+] = $LNC#56799-0 "Address"
   * code[+] = $SCT#184097001 "County (observable entity)"
 
-* insert Question(administrativeArea, Sub County,choice,false,false)
+* insert Question(SubCounty, Sub County,choice,false,false)
 * item[=]
   * code[+] = IMMZ.C#DE192
   * code[+] = $LNC#56799-0 "Address"
   * code[+] = $SCT#184097001 "Sub County (observable entity)"
 
-* insert Question(administrativeArea, Ward,choice,false,false)
+* insert Question(Ward, Ward,choice,false,false)
 * item[=]
   * code[+] = IMMZ.C#DE193
   * code[+] = $LNC#56799-0 "Address"
   * code[+] = $SCT#184097001 "Ward (observable entity)"
 
-* insert Question(administrativeArea, Community Health Unit,choice,false,false)
+* insert Question(CommunityUnit, Community Health Unit,choice,false,false)
 * item[=]
   * code[+] = IMMZ.C#DE194
   * code[+] = $LNC#56799-0 "Address"
