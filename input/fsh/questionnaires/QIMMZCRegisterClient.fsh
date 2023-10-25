@@ -93,41 +93,41 @@ Usage: #definition
 //  * code[+] = $LNC#42077-8 "Patient Phone number"
 //  * code[+] = $SCT#184103008 "Patient telephone number (observable entity)"
 
-* insert Question(phone, Mothers/Guardian  Phone Number,string,true,false)
+* insert Question(phone, Mothers/Guardian Phone Number,string,true,false)
 * item[=]
   * code[+] = IMMZ.C.DE181
   * code[+] = $LNC#42077-8 "Patient Phone number"
-  * code[+] = $SCT#184103008 "Patient telephone number (observable entity)"
+  * code[+] = $SCT#184103008 "Mothers/Guardian Phone Number (observable entity)"
 
-* insert Question(phone, Fathers/ Guardian phone number,string,true,false)
+* insert Question(phone, Fathers/Guardian phone number,string,true,false)
 * item[=]
   * code[+] = IMMZ.C.DE182
   * code[+] = $LNC#42077-8 "Patient Phone number"
-  * code[+] = $SCT#184103008 "Patient telephone number (observable entity)"
+  * code[+] = $SCT#184103008 "Fathers/Guardian phone number (observable entity)"
 
 * insert Question(administrativeArea, County,choice,false,false)
 * item[=]
   * code[+] = IMMZ.C#DE191
   * code[+] = $LNC#56799-0 "Address"
-  * code[+] = $SCT#184097001 "Patient address (observable entity)"
+  * code[+] = $SCT#184097001 "County (observable entity)"
 
 * insert Question(administrativeArea, Sub County,choice,false,false)
 * item[=]
   * code[+] = IMMZ.C#DE192
   * code[+] = $LNC#56799-0 "Address"
-  * code[+] = $SCT#184097001 "Patient address (observable entity)"
+  * code[+] = $SCT#184097001 "Sub County (observable entity)"
 
 * insert Question(administrativeArea, Ward,choice,false,false)
 * item[=]
   * code[+] = IMMZ.C#DE193
   * code[+] = $LNC#56799-0 "Address"
-  * code[+] = $SCT#184097001 "Patient address (observable entity)"
+  * code[+] = $SCT#184097001 "Ward (observable entity)"
 
 * insert Question(administrativeArea, Community Health Unit,choice,false,false)
 * item[=]
   * code[+] = IMMZ.C#DE194
   * code[+] = $LNC#56799-0 "Address"
-  * code[+] = $SCT#184097001 "Patient address (observable entity)"
+  * code[+] = $SCT#184097001 "Community Health Unit (observable entity)"
 
 * insert Question(healthWorker, Health Worker,boolean,true,false)
 * item[=]
