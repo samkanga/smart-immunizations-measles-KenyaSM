@@ -63,27 +63,27 @@ Usage: #definition
 //    * code[+] = IMMZ.C#DE15
 //    * code[+] = $SCT#184140000 "Caregiver details (observable entity)"
 
-  * insert Question(firstName, Fathers/guardian First Name,string,false,false)
+  * insert Question(firstFatherName, Fathers/guardian First Name,string,false,false)
   * item[=]
     * code[+] = IMMZ.C#DE16
 
-  * insert Question(firstName, Fathers/guardian Middle Name,string,false,false)
+  * insert Question(middleFatherName, Fathers/guardian Middle Name,string,false,false)
   * item[=]
     * code[+] = IMMZ.C.DE161
 
-  * insert Question(familyName, Fathers/guardian Last Name,string,false,false)
+  * insert Question(lastFatherName, Fathers/guardian Last Name,string,false,false)
   * item[=]
     * code[+] = IMMZ.C#DE17
 
-  * insert Question(familyName, Mothers/guardian First Name,string,false,false)
+  * insert Question(motherFirstName, Mothers/guardian First Name,string,false,false)
   * item[=]
     * code[+] = IMMZ.C.DE171
 
-  * insert Question(familyName, Mothers/guardian Middle Name,string,false,false)
+  * insert Question(motherMiddleName, Mothers/guardian Middle Name,string,false,false)
   * item[=]
     * code[+] = IMMZ.C.DE172
 
-  * insert Question(familyName, Mothers/guardian Last Name,string,false,false)
+  * insert Question(motherLastName, Mothers/guardian Last Name,string,false,false)
   * item[=]
     * code[+] = IMMZ.C.DE173
 
@@ -132,5 +132,3 @@ Usage: #definition
 * insert Question(healthWorker, Health Worker,boolean,true,false)
 * item[=]
   * code[+] = IMMZ.C#DE20
-
-
