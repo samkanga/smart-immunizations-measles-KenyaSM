@@ -58,31 +58,76 @@ Usage: #definition
   * code[+] = IMMZ.C#DE14
   * code[+] = $SCT#184140000 "Caregiver details (observable entity)"
 
-  * insert Question(fullName, Full name of the care giver,string,true,false)
-  * item[=]
-    * code[+] = IMMZ.C#DE15
-    * code[+] = $SCT#184140000 "Caregiver details (observable entity)"
+//  * insert Question(fullName, Full name of the care giver,string,true,false)
+//  * item[=]
+//    * code[+] = IMMZ.C#DE15
+//    * code[+] = $SCT#184140000 "Caregiver details (observable entity)"
 
-  * insert Question(firstName, First or given name,string,false,false)
+  * insert Question(firstName, Fathers/guardian First Name,string,false,false)
   * item[=]
     * code[+] = IMMZ.C#DE16
 
-  * insert Question(familyName, Family name,string,false,false)
+  * insert Question(firstName, Fathers/guardian Middle Name,string,false,false)
+  * item[=]
+    * code[+] = IMMZ.C.DE16.1
+
+  * insert Question(familyName, Fathers/guardian Last Name,string,false,false)
   * item[=]
     * code[+] = IMMZ.C#DE17
 
-* insert Question(phone, Client Phone number,string,true,false)
+  * insert Question(familyName, Mothers/guardian First Name,string,false,false)
+  * item[=]
+    * code[+] = IMMZ.C.DE17.1
+
+  * insert Question(familyName, Mothers/guardian Middle Name,string,false,false)
+  * item[=]
+    * code[+] = IMMZ.C.DE17.2
+
+  * insert Question(familyName, Mothers/guardian Last Name,string,false,false)
+  * item[=]
+    * code[+] = IMMZ.C.DE17.3
+
+//* insert Question(phone, Client Phone number,string,true,false)
+//* item[=]
+//  * code[+] = IMMZ.C#DE18
+//  * code[+] = $LNC#42077-8 "Patient Phone number"
+//  * code[+] = $SCT#184103008 "Patient telephone number (observable entity)"
+
+* insert Question(phone, Mothers/Guardian  Phone Number,string,true,false)
 * item[=]
-  * code[+] = IMMZ.C#DE18
+  * code[+] = IMMZ.C.DE18.1
   * code[+] = $LNC#42077-8 "Patient Phone number"
   * code[+] = $SCT#184103008 "Patient telephone number (observable entity)"
 
-* insert Question(administrativeArea, Administrative area,choice,false,false)
+* insert Question(phone, Fathers/ Guardian phone number,string,true,false)
 * item[=]
-  * code[+] = IMMZ.C#DE19
+  * code[+] = IMMZ.C.DE18.2
+  * code[+] = $LNC#42077-8 "Patient Phone number"
+  * code[+] = $SCT#184103008 "Patient telephone number (observable entity)"
+
+* insert Question(administrativeArea, County,choice,false,false)
+* item[=]
+  * code[+] = IMMZ.C#DE19.1
   * code[+] = $LNC#56799-0 "Address"
   * code[+] = $SCT#184097001 "Patient address (observable entity)"
 
+* insert Question(administrativeArea, Sub County,choice,false,false)
+* item[=]
+  * code[+] = IMMZ.C#DE19.2
+  * code[+] = $LNC#56799-0 "Address"
+  * code[+] = $SCT#184097001 "Patient address (observable entity)"
+
+* insert Question(administrativeArea, Ward,choice,false,false)
+* item[=]
+  * code[+] = IMMZ.C#DE19.3
+  * code[+] = $LNC#56799-0 "Address"
+  * code[+] = $SCT#184097001 "Patient address (observable entity)"
+
+* insert Question(administrativeArea, Community Health Unit,choice,false,false)
+* item[=]
+  * code[+] = IMMZ.C#DE19.4
+  * code[+] = $LNC#56799-0 "Address"
+  * code[+] = $SCT#184097001 "Patient address (observable entity)"
 
 * insert Question(healthWorker, Health Worker,boolean,true,false)
 * item[=]
