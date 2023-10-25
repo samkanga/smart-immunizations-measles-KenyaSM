@@ -27,17 +27,17 @@ Usage: #definition
   * code[+] = $LNC#54125-0 "Patient name"
   * code[+] = $SCT#371484003 "Patient name (observable entity)"
 
-  * insert Question(firstName, First or given name,string,false,false)
-  * item[=]
-    * code[+] = IMMZ.C#DE3
-    * code[+] = $LNC#45392-8 "First name"
-    * code[+] = $SCT#184095009 "Patient forename (observable entity)"
+* insert Question(firstName, First or given name,string,false,false)
+* item[=]
+  * code[+] = IMMZ.C#DE3
+  * code[+] = $LNC#45392-8 "First name"
+  * code[+] = $SCT#184095009 "Patient forename (observable entity)"
 
-  * insert Question(familyName, Family name,string,false,false)
-  * item[=]
-    * code[+] = IMMZ.C#DE4
-    * code[+] = $LNC#45394-4 "Last name"
-    * code[+] = $SCT#184096005 "Patient surname (observable entity)"
+* insert Question(familyName, Family name,string,false,false)
+* item[=]
+  * code[+] = IMMZ.C#DE4
+  * code[+] = $LNC#45394-4 "Last name"
+  * code[+] = $SCT#184096005 "Patient surname (observable entity)"
 
 
 * insert Question(sex, Sex,choice,true,false)
@@ -63,29 +63,29 @@ Usage: #definition
 //    * code[+] = IMMZ.C#DE15
 //    * code[+] = $SCT#184140000 "Caregiver details (observable entity)"
 
-  * insert Question(firstFatherName, Fathers/guardian First Name,string,false,false)
-  * item[=]
-    * code[+] = IMMZ.C#DE16
+* insert Question(firstFatherName, Fathers/guardian First Name,string,false,false)
+* item[=]
+  * code[+] = IMMZ.C#DE16
 
-  * insert Question(middleFatherName, Fathers/guardian Middle Name,string,false,false)
-  * item[=]
-    * code[+] = IMMZ.C.DE161
+ * insert Question(middleFatherName, Fathers/guardian Middle Name,string,false,false)
+ * item[=]
+   * code[+] = IMMZ.C.DE161
 
-  * insert Question(lastFatherName, Fathers/guardian Last Name,string,false,false)
-  * item[=]
-    * code[+] = IMMZ.C#DE17
+* insert Question(lastFatherName, Fathers/guardian Last Name,string,false,false)
+* item[=]
+  * code[+] = IMMZ.C#DE17
 
-  * insert Question(motherFirstName, Mothers/guardian First Name,string,false,false)
-  * item[=]
-    * code[+] = IMMZ.C.DE171
+* insert Question(motherFirstName, Mothers/guardian First Name,string,false,false)
+* item[=]
+  * code[+] = IMMZ.C.DE171
 
-  * insert Question(motherMiddleName, Mothers/guardian Middle Name,string,false,false)
-  * item[=]
-    * code[+] = IMMZ.C.DE172
+* insert Question(motherMiddleName, Mothers/guardian Middle Name,string,false,false)
+* item[=]
+  * code[+] = IMMZ.C.DE172
 
-  * insert Question(motherLastName, Mothers/guardian Last Name,string,false,false)
-  * item[=]
-    * code[+] = IMMZ.C.DE173
+* insert Question(motherLastName, Mothers/guardian Last Name,string,false,false)
+* item[=]
+  * code[+] = IMMZ.C.DE173
 
 //* insert Question(phone, Client Phone number,string,true,false)
 //* item[=]
