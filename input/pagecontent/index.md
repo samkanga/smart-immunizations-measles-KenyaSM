@@ -1,3 +1,7 @@
+![image](https://github.com/samkanga/smart-immunizations-measles-KenyaSM/assets/5908630/c2cf9c80-407e-4499-be31-0fcd3e0b78c0)
+
+
+
 This Kenya SM Immunization Implementation Guide details how to use Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) for consistent digital representation of immunization services.
 
 <div>
