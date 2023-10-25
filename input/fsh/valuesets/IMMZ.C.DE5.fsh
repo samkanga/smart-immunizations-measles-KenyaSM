@@ -7,4 +7,3 @@ Description:  "ValueSet for Sex for IMMZ.C.DE5."
 * ^name = "IMMZ_C_DE5"
 * IMMZ.C#DE6 "Male"
 * IMMZ.C#DE7 "Female"
-
