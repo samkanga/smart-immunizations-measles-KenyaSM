@@ -23,13 +23,18 @@ Description:  "Data elements for the IMMZ.C Register Client Data Dictionary."
 //   * obeys IMMZ-C-name-1
 //   * ^code[+] = IMMZ.C#DE3
  * firstFatherName 0..1 string "Last name" "Client's first Father name or last name"
+  * ^code[+] = IMMZ.C#DE16
  * middleFatherName 0..1 string "Last name" "Client's middle Father name or last name"
- * lastFatherName 0..1 string "Last name" "Client's last Father name or last name"
+  * ^code[+] = IMMZ.C.DE161
+* lastFatherName 0..1 string "Last name" "Client's last Father name or last name"
+  * ^code[+] = IMMZ.C#DE17
  * motherFirstName 0..1 string "Last name" "Client's mother First name or last name"
+  * ^code[+] = IMMZ.C.DE171
  * motherMiddleName 0..1 string "Last name" "Client's mother Middle name or last name"
+  * ^code[+] = IMMZ.C.DE172
  * motherLastName 0..1 string "Last name" "Client's mother Last name or last name"
    * obeys IMMZ-C-name-1
-   * ^code[+] = IMMZ.C#DE4
+   * ^code[+] = IMMZ.C.DE173
 * sex 1..1 code "Sex" "Documentation of a specific instance of sex information for the client"
   * ^code[+] = IMMZ.C#DE5
 * sex from IMMZ.C.DE5 (required)
